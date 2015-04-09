@@ -1,31 +1,7 @@
-#!/bin/bash
+:scream: 本仓库已废弃！迁移到 [useful-scripts/echo-args.sh](https://github.com/oldratlee/useful-scripts/blob/master/echo-args.sh)
+==========================
 
-redEcho() {
-    if [ -c /dev/stdout ] ; then
-        # if stdout is console, turn on color output.
-        echo -ne "\033[1;31m"
-        echo -n "$@"
-        echo -ne "\033[0m"
-    else
-        echo -n "$@"
-    fi
-}
+.
 
-echoArg() {
-    local index=$1
-    local count=$2
-    local value=$3
-
-    echo -n "$index/$count: "
-    redEcho "["
-    echo -n "$value"
-    redEcho "]"
-    echo
-}
-
-
-echoArg 0 $# "$0"
-idx=1
-for a ; do
-    echoArg $((idx++)) $# "$a"
-done
+:scream_cat: This repo is deprecated! moved to [useful-scripts/echo-args.sh](https://github.com/oldratlee/useful-scripts/blob/master/echo-args.sh)
+==========================

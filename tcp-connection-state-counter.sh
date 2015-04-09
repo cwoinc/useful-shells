@@ -1,18 +1,7 @@
-#!/bin/bash
-# @Function
-# show count of tcp connection stat.
-#
-# @Usage
-#   $ ./tcp-connection-state-counter.sh
-#
-# @author Jerry Lee
+:scream: 本仓库已废弃！迁移到 [useful-scripts/tcp-connection-state-counter.sh](https://github.com/oldratlee/useful-scripts/blob/master/tcp-connection-state-counter.sh)
+==========================
 
-netstat -tna | awk 'NR > 2 {
-    s[$NF]++ 
-}
+.
 
-END {
-    for(v in s) {
-        printf "%-12s%s\n", v, s[v]
-    }
-}' | sort -nr -k2,2
+:scream_cat: This repo is deprecated! moved to [useful-scripts/tcp-connection-state-counter.sh](https://github.com/oldratlee/useful-scripts/blob/master/tcp-connection-state-counter.sh)
+==========================

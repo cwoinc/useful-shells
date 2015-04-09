@@ -1,11 +1,7 @@
-#!/bin/bash
-# @Function
-# Open file in file explorer.
-# same as xpl --selected [FILE]
-#
-# @Usage
-#   $ ./xpf file
-#
-# @author Jerry Lee
-BASE=`dirname $0`
-. $BASE/xpl "$@"
+:scream: 本仓库已废弃！迁移到 [useful-scripts/xpf](https://github.com/oldratlee/useful-scripts/blob/master/xpf)
+==========================
+
+.
+
+:scream_cat: This repo is deprecated! moved to [useful-scripts/xpf](https://github.com/oldratlee/useful-scripts/blob/master/xpf)
+==========================

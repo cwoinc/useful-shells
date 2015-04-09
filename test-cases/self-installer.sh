@@ -1,8 +1,7 @@
-#!/bin/bash
+:scream: 本仓库已废弃！迁移到 [useful-scripts/test-cases/self-installer.sh](https://github.com/oldratlee/useful-scripts/blob/master/test-cases/self-installer.sh)
+==========================
 
-if which svn &> /dev/null; then
-	[ ! -d "/tmp/useful-shells-$USER" ] &&
-	svn checkout https://github.com/oldratlee/useful-shells/trunk "/tmp/useful-shells-$USER"
-fi
+.
 
-export PATH="$PATH:/tmp/useful-shells-$USER"
+:scream_cat: This repo is deprecated! moved to [useful-scripts/test-cases/self-installer.sh](https://github.com/oldratlee/useful-scripts/blob/master/test-cases/self-installer.sh)
+==========================
